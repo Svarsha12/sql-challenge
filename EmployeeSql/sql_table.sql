@@ -16,7 +16,7 @@ CREATE TABLE "employees" (
     "first_name" VARCHAR(50)   NOT NULL,
     "last_name" VARCHAR(50)   NOT NULL,
     "sex" VARCHAR(5)   NOT NULL,
-    "hire_date" VARCHAR(50)   NOT NULL,
+    "hire_date" DATE   NOT NULL,
     CONSTRAINT "pk_employees" PRIMARY KEY (
         "emp_no"
      )
